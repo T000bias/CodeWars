@@ -6,3 +6,9 @@
 // 14: -14
 // -34: 34
 
+//solution
+
+function opposite(number) {
+    //your code here
+  return number * -1
+  }
