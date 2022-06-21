@@ -22,3 +22,5 @@ function isDivideBy(number, a, b) {
       return false
     }
   }
+
+// Alt Solution
