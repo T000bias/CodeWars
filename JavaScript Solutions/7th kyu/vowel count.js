@@ -19,3 +19,4 @@ function getCount(str) {
     console.log(counter);
   }
   return counter
+}
