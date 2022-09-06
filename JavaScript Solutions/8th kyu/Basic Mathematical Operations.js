@@ -12,3 +12,10 @@ Examples(Operator, value1, value2) --> output
 
 
  */
+// This stackoverflow post helped: https://stackoverflow.com/questions/13077923/how-can-i-convert-a-string-into-a-math-operator-in-javascript
+
+// Solution
+function basicOp(operation, value1, value2) {
+  // Code
+  return eval(value1 + operation + value2)
+}
