@@ -19,3 +19,20 @@
 
 // We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
 // Advanced users may find this extremely easy and can easily write this in one line.
+
+//Solution
+// Sum Numbers
+function sum (numbers) {
+  "use strict";
+console.log(numbers)
+let sum = 0;
+for (let index = 0; index < numbers.length; index++) {
+  console.log(numbers[index])
+  sum += numbers[index]
+  console.log(sum)
+  if (numbers == []) {
+    sum = 0
+  }
+}
+return sum
+};
