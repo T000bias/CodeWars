@@ -1,0 +1,1 @@
+# Squares Sequence Solution
