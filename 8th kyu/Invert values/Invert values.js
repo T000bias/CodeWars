@@ -1,3 +1,4 @@
+// Solution #1
 function invert(array) {
   let copy = [...array]
 //   console.log(copy)
@@ -6,4 +7,13 @@ function invert(array) {
   }
   console.log(copy)
    return copy ;
+}
+
+// Solution #2
+function invert(array) {
+  let arr = []
+  for (let i = 0; i < array.length; i++) {
+    arr.push(-array[i])
+  }
+  return arr;
 }
