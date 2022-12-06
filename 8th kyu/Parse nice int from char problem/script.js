@@ -7,3 +7,10 @@ function getAge(inputString){
       console.log(integer)
       return integer
     }
+
+    // Solution 2
+    function getAge(inputString){
+      // return the girl's correct age as an integer. Happy coding :) 
+        console.log(inputString)
+        return parseInt(inputString)
+      }
