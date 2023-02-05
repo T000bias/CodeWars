@@ -13,4 +13,4 @@ function uniqueSum(lst){
     }
     console.log(lst, sum)
     return sum
-  }
+  }1
