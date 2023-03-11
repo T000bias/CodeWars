@@ -7,4 +7,4 @@ function reverseWords(str) {
       arr.push(word.split('').reverse().join(''))
     }
     return arr.join(' ')
-  }
+}

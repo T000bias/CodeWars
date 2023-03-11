@@ -5,5 +5,4 @@ function isIsogram(str){
     return (words.filter(function(item,index) {
       return words.indexOf(item) === index
     }).join('') === str.toLowerCase())
-  
-  }
+}
