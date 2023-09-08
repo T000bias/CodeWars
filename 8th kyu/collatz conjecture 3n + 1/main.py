@@ -11,4 +11,4 @@ def hotpo(number):
         if number == 1:
             break
     return count
-                
+
