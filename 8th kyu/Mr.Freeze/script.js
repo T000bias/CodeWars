@@ -1,2 +1,0 @@
-// Solution
-Object.freeze(MrFreeze)
